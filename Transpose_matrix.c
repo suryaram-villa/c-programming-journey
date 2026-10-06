@@ -21,7 +21,7 @@ int main() {
   }
   for(x=0;x<i;x++){
     for(y=0;y<j;y++){
-      b[x][y]=a[y][x];
+      b[y][x]=a[x][y];
     }
   }
   printf("Transposed matrix: \n");
